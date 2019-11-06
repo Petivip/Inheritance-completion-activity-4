@@ -19,4 +19,12 @@ public class Book extends Product {
     private String author;
     private int pages;
 
+    @Override
+    public String toString() {
+        return "Code:                " + author+ "\n" +
+                "Description:        " + pages;
+
+    }
+
+
 }

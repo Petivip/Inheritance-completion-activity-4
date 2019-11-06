@@ -2,6 +2,14 @@ public class Software  extends Product{
     private String programmer;
     private String platform; // linux, mac, or pc
 
+    @Override
+    public String toString() {
+        return "Code:                " + programmer + "\n" +
+                "Description:        " + platform + "\n" +
+                "Price:              " + os+ "\n";
+    }
+
+
     public String getProgrammer() {
         return programmer;
     }
